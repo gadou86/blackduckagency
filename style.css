@@ -1,0 +1,168 @@
+
+body {
+  background: #f8f8f8;
+  font-family: "Nunito" sans-serif;
+}
+
+#div1 {
+  width: 130%;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+#mainNavbar {
+  justify-content: center;
+  background-color: #eeeeee;
+  height: 70px;
+}
+
+#mainNavbar .nav-link{
+  color: #646464;
+}
+
+#mainNavbar .nav-link-active{
+  padding: 7px 16px;
+  background-color: #f8f8f8;
+  color: #646464;
+  border-radius: 4px;
+}
+
+
+.fun-hr {
+  border: none;
+  height: 1px;
+  max-width: 100px;
+  margin: 20px 0;
+  background: linear-gradient(to right, pink, blue, purple, lightblue);
+  border-radius: 4px;}
+
+.fun-hr-section2 {
+  border: none;
+  height: 1px;
+  max-width: 100px;
+  background: linear-gradient(to right, pink, blue, purple, lightblue);
+  border-radius: 4px;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+#div1 {
+  display: flex;
+}
+
+h1 {
+  color: #646464;
+  font-weight: lighter;
+  
+}
+
+
+p {
+  color: #646464;
+  font-weight: 200;
+  line-height: 1.6;
+}
+
+
+#main-pic {
+  filter: sepia(15%);
+  margin: 50px 0px;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: 1px solid #bebebe4d;
+  box-shadow: 0 0 20px rgb(218, 218, 218);
+}
+
+.image-cirle {
+  top: 600px
+}
+
+.btn {
+  color: #646464;
+  background: transparent;
+  border: 1px solid #e2e2e2
+}
+
+.squares {
+  height: 190px;
+  width: 210px;
+  background-color: #f0a49d;
+  display: flex;
+  justify-content: space-around;
+}
+
+.squares-purple {
+  height: 190px;
+  width: 210px;
+  background-color: #ca94d1;
+  display: flex;
+  justify-content: center;
+}
+
+.squares-blue {
+  height: 190px;
+  width: 210px;
+  background-color: #9a8194;
+  display: flex;
+  justify-content: center;
+}
+
+.squares-lightblue {
+  height: 190px;
+  width: 210px;
+  background-color: #9497c4;
+  display: flex;
+  justify-content: center;
+}
+
+.squares-last {
+  height: 190px;
+  width: 210px;
+  background-color: #94b9c4;
+  display: flex;
+  justify-content: center;
+}
+
+i {
+  font-size: 25px;
+}
+
+.square-info {
+  padding-top: 45px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.square-info h3 {
+  font-size: 35px;
+  margin: 0;
+  font-weight: 200;
+}
+
+.info {
+  font-size: 15px;
+  color: white;
+}
+
+.last-container {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+.last-text {
+  max-width: 500px;
+  max-height: 300px;
+  text-align: justify;
+}
