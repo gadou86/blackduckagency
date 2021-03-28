@@ -166,3 +166,15 @@ i {
   max-height: 300px;
   text-align: justify;
 }
+
+.last-btnb {
+  text-align: center;
+}
+
+.btn-flat {
+  margin: 30px 665px;
+}
+
+.main-btn {
+  margin: 0;
+}
