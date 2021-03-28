@@ -19,13 +19,13 @@ body {
 }
 
 #mainNavbar .nav-link{
-  color: #646464;
+  color: #919191;
 }
 
 #mainNavbar .nav-link-active{
   padding: 7px 16px;
   background-color: #f8f8f8;
-  color: #646464;
+  color: #808080;
   border-radius: 4px;
 }
 
