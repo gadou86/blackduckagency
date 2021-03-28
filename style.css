@@ -2,10 +2,14 @@
 body {
   background: #f8f8f8;
   font-family: "Nunito" sans-serif;
+ max-width: 100%;
 }
-
+col {
+  display: flex;
+  justify-content: center;
+}
 #div1 {
-  width: 130%;
+ 
 }
 
 .container {
